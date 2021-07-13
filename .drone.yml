@@ -1,11 +1,7 @@
 kind: pipeline
-name: readme
-trigger:
-  paths:
-    include:
-    - README.md
+name: default
+
 steps:
-- name: message
-  image: busybox
-  commands:
-  - echo "README.md was change”
+- name: test
+  image: node
+
