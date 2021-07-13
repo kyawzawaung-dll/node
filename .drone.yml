@@ -8,4 +8,4 @@ steps:
 - name: message
   image: busybox
   commands:
-  - echo "README.md was changed”
+  - echo "README.md was change”
