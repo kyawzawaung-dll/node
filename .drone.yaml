@@ -2,5 +2,5 @@ kind: pipeline
 name: default
 
 steps:
-- name: testing
+- name: testing2
   image: node
