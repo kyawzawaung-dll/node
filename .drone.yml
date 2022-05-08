@@ -5,4 +5,4 @@ name: default
 
 steps:
 - name: testing-2
-  image: node
+  image: node1
